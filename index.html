@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>3 Danh Lam Thắng Cảnh Nổi Tiếng Thế Giới</title>
+<meta charset="UTF-8">
+<title>Những con vật nuôi</title>
 
-    <style>
-        /* Tiêu đề màu đen */
-        h1, h2 {
-            color: black;
-        }
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #eee;
+        padding: 20px;
+    }
 
-        /* Chữ giới thiệu màu xanh dương */
-        p {
-            color: blue;
-        }
-    </style>
+    h1 {
+        text-align: center;
+    }
+
+    .item {
+        margin-bottom: 30px;
+    }
+
+    .item img {
+        width: 200px;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .desc-btn {
+        display: inline-block;
+        padding: 5px 10px;
+        background: #ddd;
+        border: 1px solid #999;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    /* overlay mờ */
+    .overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* popup */
+    .popup {
+        background: #fff;
+        width: 350px;
+        padding: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .popup h2 {
+        margin-top: 0;
+    }
+
+    .popup button {
+        margin-top: 15px;
+        padding: 8px 25px;
+        border: none;
+        background: #007aff;
+        color: white;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
 </head>
+
 <body>
-    <h1>3 Danh Lam Thắng Cảnh Nổi Tiếng Thế Giới</h1>
 
-    <h2>1. Tháp Eiffel (Pháp)</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" width="400">
-    <p>Tháp Eiffel là biểu tượng nổi tiếng của nước Pháp, nằm tại thủ đô Paris.</p>
+<h1>Những con vật nuôi</h1>
 
-    <h2>2. Tượng Nữ Thần Tự Do (Mỹ)</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg" width="400">
-    <p>Tượng Nữ Thần Tự Do là biểu tượng của tự do và dân chủ tại Hoa Kỳ.</p>
+<div class="item">
+    <h3>Mèo Xiêm</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Siamese_cat.jpeg">
+    <div class="desc-btn" onclick="showDesc('Đây là giống mèo cảnh nổi tiếng, có nguồn gốc từ Thái Lan.')">
+        Mô tả ảnh
+    </div>
+</div>
 
-    <h2>3. Đấu trường La Mã Colosseum (Ý)</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Colosseo_2020.jpg" width="400">
-    <p>Colosseum là công trình lịch sử nổi tiếng tại Rome, được xây dựng từ thời La Mã cổ đại.</p>
-
-    <hr>
-    <p><strong>Người thực hiện:</strong> Trần Tuấn Kha</p>
-</body>
-</html>
+<div class="item">
+    <h3>Mèo Ba Tư</h3>
+    <img src="https://upload.wik
